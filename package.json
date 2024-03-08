@@ -9,11 +9,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.22.0",
+    "@react-native-async-storage/async-storage": "1.22.3",
     "@react-native-community/netinfo": "^11.3.0",
     "@react-navigation/native": "^6.1.10",
     "@react-navigation/native-stack": "^6.9.18",
-    "expo": "~50.0.6",
+    "expo": "^50.0.11",
     "expo-av": "^13.10.5",
     "expo-image-picker": "^14.7.1",
     "expo-location": "^16.5.3",
