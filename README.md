@@ -27,4 +27,4 @@ The Chat App is a mobile application built with React Native and Expo, providing
    npm install
 3. Start the app:
   ```bash
-  expo start
+   expo start
