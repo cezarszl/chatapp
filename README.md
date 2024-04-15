@@ -1,30 +1,30 @@
 # Chat App
 
-Welcome to our chat application! This README provides an overview of the features, user stories, and technical requirements for our project.
+## Introduction
+The Chat App is a mobile application built with React Native and Expo, providing a platform for users to engage in conversations by sending messages, images, and sharing their location. It is designed to be accessible and functional both online and offline.
 
-## Features and Requirements
+## Features
+- **Real-time Messaging:** Communicate with friends and family in real time.
+- **Image Sharing:** Share images directly from your device.
+- **Location Sharing:** Send your current location to others in the chat.
+- **Offline Access:** Read messages even when offline.
+- **User Customization:** Choose your chat room name and theme color before joining.
+- **Accessibility Features:** Compatible with screen readers.
 
-### User Stories
-- **New User**: Easily enter a chat room to start talking to friends and family.
-- **Sending Messages**: Send messages to exchange the latest news.
-- **Sending Images**: Share images with friends to show current activities.
-- **Sharing Location**: Share location to show where you are.
-- **Offline Message Reading**: Read messages offline to revisit conversations anytime.
-- **Accessibility**: Use a chat app compatible with a screen reader for users with visual impairments.
+## Technical Details
+- **Framework:** Built with React Native using Expo.
+- **Authentication:** Anonymous authentication via Google Firebase.
+- **Database:** Conversations stored in Google Firestore.
+- **Storage:** Images are stored in Firebase Cloud Storage.
+- **Device Features:** Utilizes the device's camera and location data.
 
-### Key Features
-- User customization: Name entry and background color selection before joining chat.
-- Conversation display with input field and submit button.
-- Additional communication features: sending images and location data.
-- Online and offline data storage.
-
-### Technical Requirements
-- Developed in React Native using Expo.
-- Styled according to provided screen design.
-- Chat conversations stored in Google Firestore Database.
-- Anonymous user authentication via Google Firebase.
-- Local storage of chat conversations.
-- Ability to pick and send images from the device's library.
-- Ability to take pictures with the device's camera app and send them.
-- Storage of images in Firebase Cloud Storage.
-- Access to user's location data.
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cezarszl/chatapp.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the app:
+  ```bash
+  expo start
